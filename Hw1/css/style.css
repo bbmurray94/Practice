@@ -19,6 +19,10 @@ a:visited {
     color: white;
 }
 
+a {
+    color: white;
+}
+
 main {
     background-color: rgb(82, 158, 194);
     font-size:30px;
