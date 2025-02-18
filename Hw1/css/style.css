@@ -24,11 +24,11 @@ header img {
     position: relative;
 }
 
-nav a:visited, p a:visited {
+nav a:visited{
     color: white;
 }
 
-nav a, p a {
+nav a{
     color: white;
 }
 
