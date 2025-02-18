@@ -13,13 +13,22 @@ nav {
     text-align: center;
     padding-top: 10px;
     color: white;
+    display: inline-block;
+    width: 80%;
+    text-decoration: none;
 }
 
-a:visited {
+header img {
+    width: 10%;
+    top: 20px;
+    position: relative;
+}
+
+nav a:visited, p a:visited {
     color: white;
 }
 
-a {
+nav a, p a {
     color: white;
 }
 
@@ -31,6 +40,28 @@ main {
 
 footer {
     background-color: rgb(240, 255, 248);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content:center;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex img {
+    width: 25%;
+}
+
+.grid img {
+    width: 100%;
 }
 
 li {
