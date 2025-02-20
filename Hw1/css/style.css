@@ -21,19 +21,23 @@ main {
 }
 
 .skipContent {
-    position: relative;
-    color: black;
-    /* color: rgb(40, 180, 134);  */
+    position: absolute;
+    left: -999px; 
+    color:#000; 
 }
 
-.skipContent:hover, .skipContent:focus {
-    color: black;
+.skipContent:focus {
+    position: static;
+    margin: 10px;
+    background-color: #ffc; 
+    padding: 10px;
+    border: 1px solid #ccc;
 }
 
 header {
     background-color: rgb(40, 180, 134);
     text-align: center;
-    margin-top: 0px;
+    padding-top: 20px;
 }
 
 nav {       
