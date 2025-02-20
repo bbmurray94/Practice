@@ -22,7 +22,8 @@ main {
 
 .skipContent {
     position: relative;
-    color: rgb(40, 180, 134); /*Match background of nav*/
+    color: black;
+    /* color: rgb(40, 180, 134);  */
 }
 
 .skipContent:hover, .skipContent:focus {
