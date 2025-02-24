@@ -1,20 +1,26 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Test</title>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <span>Span A</span>
-        <span>Span B</span>
-        <span>Span C</span>
-        <hr>
-        <div>Div A</div>
-        <div>Div B</div>
-        <div>Div C</div>
-        <hr>
-        <p>Paragraph A</p>
-        <p>Paragraph B</p>
-        <p>Paragraph C</p>
-    </body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="css/gallery.css">
+	<script src = "js/gallery.js"></script>
+</head>
+<body onload="setImages()">
+	
+	<div id = "image">
+		Hover over an image below to display here.
+	</div>
+	
+	<img class = "preview" alt = "cat laying next to keyboard" src = "images/IMG_0464.JPEG" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+	
+	<img class = "preview" alt = "cat curled up on bed" src = "images/IMG_0516.JPEG" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+	
+	<img class = "preview" alt = "cat on top of door" src = "images/IMG_0627.JPEG" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+    <img class = "preview" alt = "cat inside cat tree"  src = "images/IMG_0654.JPEG" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+    <img class = "preview" alt = "cat showing his toe beans" src = "images/IMG_0667.JPEG" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+    <img class = "preview" alt = "cat sleeping" src = "images/IMG_0674.JPEG" onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+
+</body>
 </html>
